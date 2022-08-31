@@ -2,7 +2,7 @@ import React from 'react'
 import {Button, Grid, Typography} from '@mui/material'
 import './Home.scss'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-
+import logo from '../../Images/logo.png'
 const theme = createTheme();
 
 theme.typography.h1 = {
@@ -34,6 +34,9 @@ theme.typography.h5 = {
 export default function Home() {
   return (
     <div className='home-container'>
+      <div className='navbar'>
+        <img src={logo} alt='logo' />
+      </div>
       <div className='content'>
       <Grid container>
         <Grid item xs={12}>

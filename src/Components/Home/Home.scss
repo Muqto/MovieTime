@@ -3,6 +3,16 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.navbar{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    img{     
+        height: 100px;
+        
+    }
+    
+}
 .home-container{
     min-height: 100vh;
     display: flex;
@@ -13,7 +23,7 @@ body{
     color: white;
 }
 .content{
-    margin: 30px;
+    margin: 50px 30px 30px 30px;
     display: flex;
     align-items: center;
     text-align: center;
