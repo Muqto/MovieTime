@@ -1,0 +1,25 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials{
+    color:#0c1127;
+    
+}
+.social-icon{
+    padding: 0 30px 30px 30px !important;
+    font-size: 3rem !important;
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width:'508px') {
+    .social-icon{
+        padding: 0 20px 20px 20px !important;
+        font-size: 2rem !important;
+    }
+}

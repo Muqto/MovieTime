@@ -1,0 +1,79 @@
+.preview-container{
+    min-height: 100vh;
+    background-color: #ffffff;
+    
+}
+.carousel{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    img{
+        height: 450px;
+        transform: translateX(-50%);
+        box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+    }
+    button{
+        background-color: rgba(255, 255, 255, 0);
+        &::before{
+            color: #050710;
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        &:hover{
+            background-color: rgba(255, 255, 255, 0);
+        }
+    }
+    
+}
+.preview-head-text{
+    padding: 50px 15% 100px 15%;
+    text-align: center;
+    color: #050710;
+}
+
+@media screen and (max-width: 1520px) {
+    .carousel{
+        img{
+            height: 350px;
+        }
+    }
+}
+@media screen and (max-width: 1160px) {
+    .carousel{
+        img{
+            height: 300px;
+        }
+        
+    }
+}
+@media screen and (max-width: 691px) {
+
+
+    .preview-head-text{
+        padding: 50px 20px 100px 20px;
+        text-align: center;
+        color: #050710;
+    }
+    .carousel{
+        
+        li{
+            text-align: center;
+            transform: translateX(0);     
+        }
+        img{
+            transform: translateX(0);
+            height: 350px;
+        }
+    }
+}
+@media screen and (max-width: 540px) {
+    .carousel{
+        li{
+            text-align: center;
+            transform: translateX(0);     
+        }
+        img{
+            transform: translateX(0);
+            height: 400px;
+        }
+    }
+}

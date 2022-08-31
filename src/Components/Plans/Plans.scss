@@ -1,0 +1,82 @@
+.plans-container{
+    min-height: 100vh;
+    background-color: #ebe7fb;
+    padding: 0 5% 0 5%;
+}
+.plans-header{
+    padding-top: 70px ;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #0c1127;
+}
+
+.paper{
+    border-radius: 20px !important;
+    height: 500px;
+    width: 340px;
+    position: relative;
+}
+.paper.diamond-paper{
+    height: 550px;
+    background-color: #0c1127;
+    color: white;
+    .icon{
+        color: #ffffff;
+        padding-right: 7px;
+    }
+    .button{
+        background-color: #ffffff !important;
+        color: #0c1127;
+    }
+
+}
+
+.papers-container{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 40px;
+}
+.card-content{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    .card-title{
+        padding-bottom: 5px;
+    }
+    .card-aud{
+        color: #706f89;
+        margin-bottom: 20px;
+    }
+    .card-price{
+        padding-bottom: 40px;
+    }
+    .card-benefit{
+        display: flex;
+        padding-bottom: 10px;
+    }
+}
+    .button-container{
+        position: absolute;
+        width: 100%;
+        bottom:30px;
+        text-align: center;
+        }
+    .button{
+        padding: 10px 50px 10px 50px !important;
+        background-color: #0c1127 !important;
+        border-radius: 30px !important;
+    }
+.icon{
+    color: #0c1127;
+    padding-right: 7px;
+}
+
+.pricing{
+    display: flex;
+    align-items:center;
+    padding-bottom: 40px;
+}

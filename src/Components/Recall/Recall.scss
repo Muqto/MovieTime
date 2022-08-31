@@ -1,0 +1,27 @@
+.recall-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    text-align: center;
+    margin: 0 15%;
+    color: #0c1127;
+}
+.recall-button{
+    background-color: #0c1127 !important;
+    border-radius: 70px !important;
+    padding: 30px 70px 30px 70px !important;
+}
+@media screen and (max-width:435px) {
+    .recall-button{
+        padding: 20px 50px 20px 50px !important;
+    }
+}
+@media screen and (max-width:885px) {
+    .recall-container{
+        margin: 0 20px;
+       
+    }
+}
